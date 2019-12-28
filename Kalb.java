@@ -1,5 +1,7 @@
 public class Kalb{
     public static void main(String[] args){
-        System.out.println("It worked");
+        calendarsystem.Month month = new calendarsystem.Month(5, "june");
+
+        System.out.println(month.name);
     }
 }
